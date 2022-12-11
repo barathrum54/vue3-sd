@@ -1,0 +1,405 @@
+{
+  "message": "hello i18n !!",
+  "turkish": "Turkish",
+  "english": "English",
+  "menu": {
+    "mainMenu": {
+      "shop": "SHOP PANEL"
+    },
+    "accountAndOther": "ACCOUNT AND OTHER",
+    "accountSettings": "Account Settings",
+    "routes": {
+      "summary": "Summary Screen",
+      "advertProcess": "Advert Processes",
+      "myAdverts": "My Adverts",
+      "notifications": "Notifications",
+      "allNotifications": "All Notifications",
+      "unreadNotifications": "Unread",
+      "requiringActionNotifications": "Requiring Action",
+      "systemNotifications": "System",
+      "orders": "Orders",
+      "allOrders": "All Orders",
+      "purchasedOrder": "Purchased",
+      "thoseOldOrder": "Those For Sale",
+      "supportSystem": "Support System",
+      "mySupports": "My Support Requests",
+      "createSupport": "Create Request",
+      "changesLog":"Changes Log"
+
+    }
+  },
+  "currency": "$",
+  "shop": {
+    "dashboard": {
+      "title": "Sales Report Summary",
+      "dailyReport": {
+        "title": "Short Report",
+        "subtitle": "Based on last 48 hours data*",
+        "totalPrice": "Order Total",
+        "orderCount": "Order Count",
+        "compYesterday": "Compared to Yesterday",
+        "pendingOrders": "Pending Orders",
+        "deliveredOrders": "Delivered Orders"
+      },
+      "last30DayChart": {
+        "title": "Order Report (Last 30 Days)",
+        "purchaseWord": "Purchase",
+        "earningWord": "Earning",
+        "customerWord": "customer",
+        "numberOfOrders": "Order Count",
+        "orderAmount": "Order Amount",
+        "customerCount": "Customer Count"
+      },
+      "lastOrders": {
+        "title": "Last Orders",
+        "showAllOrders": "All Orders",
+        "columns": {
+          "customer": "Customer",
+          "price": "Price",
+          "state": "State",
+          "advert": "Sold Advert"
+        }
+      },
+      "lastNotifications": {
+        "title": "Last Notifications",
+        "showAllNotifications": "All Notifications",
+        "columns": {
+          "notification": "Notification",
+          "process": "Process"
+        }
+      }
+    },
+    "adverts":{
+      "title":"My Adverts",
+      "subtitle":"Number of Ads Listed",
+      "createAdvert":"Create Advert",
+      "searchPlaceholder":"Search Advert",
+      "menuAllAdverts":"All Adverts",
+      "menuActiveAdverts":"Active Adverts",
+      "menuInactiveAdverts":"Passive Adverts",
+      "sort":"Sort",
+      "sortAI":"Smart Sort (Default)",
+      "sortDate":"Advert Expiry Date (Closer -> Far)",
+      "sortCategory":"Advert Category (A->Z)",
+      "sortPrice":"Advert Price (9->1)",
+      "sortCSV":"CSV",
+      "selectedAdvert":"Adverts Selected",
+      "batchProcessRemove":"Take Off",
+      "batchProcessMoveUp":"Move Up",
+      "batchProcessDoping":"Doping",
+      "batchProcessApply":"Apply",
+      "advertCard":{
+        "month":"Months",
+        "day":"Day",
+        "hour":"Hours",
+        "minute":"Minutes",
+        "price":"Advert Price",
+        "editAdvert":"Edit Advert",
+        "chooseAdvert":"Choose",
+        "showCaseAdvert":"Showcase Advert",
+        "remainingTime":"Remaining time",
+        "featuredAdvert":"Featured Advert",
+        "socialAdvert":"Chat & Notification Showcase",
+        "marketAdvert":"Ad Market Showcase",
+        "movedUp":"Post Moved Up",
+        "increaseAdvertTime":"Please choose how much to increase the duration of the posting.    ",
+        "approve":"Approve",
+        "optionsAdvert":"Operations",
+        "optionsMenuEdit":"Edit",
+        "optionsMenuDoping":"Doping",
+        "optionsMenuStock":"Edit Stocks",
+        "optionsMenuGraph":"Graph",
+        "optionsMenuOrders":"List Orders",
+        "optionsMenuMoveUp":"Move Up",
+        "optionsMenuRemove":"Take Off",
+        "optionsMenuRePublish":"Republish Post"
+      },
+      "dopingModal":{
+
+        "title":"Advert Doping",
+        "description":"You are committing doping for this ad.",
+        "price":"Advert Price",
+        "chooseTime":"Choose Time",
+        "noChoose":"No Choice Made",
+        "month":"Months",
+        "day":"Days",
+        "hour":"Hours",
+        "minute":"Minutes",
+        "endshowcase":"End time of Showcase",
+        "showCasePrice":"Amount to be paid",
+        "saveChanges":"Save Changes",
+        "boost":{
+          "title":"Anasayfa Vitrini",
+          "description":"Vitrin İlanlar Ana Sayfa ve İlan Kategorisinde en üstte sabitlenmiş olarak görünmektedir."
+        },
+        "social":{
+          "title":"Sohbet & Bildirim Vitrin İlanı",
+          "description":"İtemSatış’ın ana sayfasından sonra en aktif sayfalarının mesajlar ve bildirimler sayfası olduğunu biliyor muydunuz?Sohbet & Bildirim vitrini sayesinde ilanınız mesajlarım ve bildirimlerim sayfasının altında listelenecek ve %75’e yakın oranda daha fazla görüntülenme alacaktır. Bu sayede satış sayınız artabilir."
+        },
+        "pinned":{
+          "title":"Pazar Vitrini",
+          "description":"Bu dopingi satın alarak ilanınızı İlan Pazarı sayfasında en üstte sergileyebilirsiniz. Pazar vitrini sayesinde ilanınız, normal ilanlara göre %70 daha fazla görüntülenme alacaktır. Bu sayede de satış hızınız ve sayınız artacak"
+        },
+        "featured":{
+          "title":"İlanını öne çıkar",
+          "description":"Öne çıkarılan ilanlar diğer ilanlardan daha fazla ilgi çekmektedir ve %80 oranında diğer ilanlardan daha hızlı satılmaktadır. İlanınızı öne çıkarttığınızda ilan listeleme sayfalarında organik sıralarınızda bulunacaksınız fakat diğer ilanlardan daha belirgin olmanız için başlık kalınlığı arkaplan rengi vs. gibi bazı özel stiller uygulanacaktır bu sebeple diğer ilanlardan daha belirgin olacaktır."
+        }
+      },
+      "stockModal":{
+        "title":"Edit Advert Stocks",
+        "searchPlaceholder":"Search Advert",
+        "description":"Bu ilanınıza ait stoklarda düzenleme işlemi yapıyorsunuz.",
+        "price":"Advert Price",
+        "contentOfStock":"Stock Content",
+        "operation":"Operation"
+      },
+      "ordersModal":{
+        "title":"Advert Orders",
+        "description":"You are listing the orders for this advert.",
+        "price":"Advert Price",
+        "priceOfAdvert":"Advert Price",
+        "contentOfStock":"Stock Content",
+        "operation":"Operation"
+      }
+      
+    }
+  },
+  "signIn": {
+    "username": "Username",
+    "password": "Password",
+    "signIn": "Sign In",
+    "forgotPassword": "Forgot password",
+    "forgotUsername": "Forgot username",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign Up.",
+    "loading": "Loading...",
+    "or": "Or",
+    "rememberMe": "Remember Me",
+    "signInWithGoogle": "Sign In With Google",
+    "usernamePlaceholder": "Enter your Username or Email Address.",
+    "passwordPlaceholder": "Enter your password..",
+    "createAccoutNow": "Create a Account Now!"
+  },
+  "signUp": {
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "username": "Username",
+    "fullname": "Full Name",
+    "phoneNumber": "Phone Number",
+    "password": "Password",
+    "birthday": "Birthday",
+    "passwordAgain": "Password Again",
+    "emailAddress": "E-mail Adress",
+    "emailAddressAgain": "E-mail Adress Again",
+    "usernamePlaceholder": "Enter your username..",
+    "fullnamePlaceholder": "Enter your full name..",
+    "phoneNumberPlaceholder": "Enter your phone number..",
+    "passwordPlaceholder": "Set a strong password..",
+    "birthdayPlaceholder": "DD/MM/YYYY",
+    "birthdayError": "Birthday is not valid.",
+    "passwordAgainPlaceholder": "Enter your password again..",
+    "emailAddressPlaceholder": "Enter your email address..",
+    "emailAddressAgainPlaceholder": "Enter your email address again..",
+    "aggrement": "I have read the membership agreement, I accept.",
+    "or": "Or",
+    "createAccount": "Create an Account!",
+    "signInWithGoogle": "Sign In With Google",
+    "loading": "Loading..."
+  },
+  "forgotPassword": {
+    "forgotPassword": "Forgot Password",
+    "forgotInfoTitle": "Information",
+    "forgotInfoText": "You can reset the password with your Username / Email or your phone number registered in the system. When you click the reset password button, an automatic URL will be sent to your e-mail address or phone number that will allow you to reset your password.",
+    "emailAddress": "E-mail Address",
+    "phoneNumber": "Phone Number",
+    "emailAddressPlaceholder": "Enter your email address..",
+    "phoneNumberPlaceholder": "Enter your phone number..",
+    "verificationCodePlaceholder": "Enter the 6 digit security code.",
+    "resetPassword": "Reset Password",
+    "selectionEmail": "via Email",
+    "selectionPhone": "via Phone",
+    "remember": "Do you remember?",
+    "signIn": "Sign In",
+    "modalTitle": "Password Reset",
+    "loading": "Loading..."
+  },
+  "forgotUsername": {
+    "forgotUsername": "Forgot Username",
+    "forgotInfoTitle": "Information",
+    "forgotInfoText": "You can enter your email or phone information below, to which your username information will be sent. Your username will be sent to you as a result of the transaction.",
+    "emailAddress": "E-mail Address",
+    "phoneNumber": "Phone Number",
+    "emailAddressPlaceholder": "Enter your email address..",
+    "phoneNumberPlaceholder": "Enter your phone number..",
+    "verificationCodePlaceholder": "Enter the 6 digit security code.",
+    "sendUsername": "Send Username",
+    "selectionEmail": "via Email",
+    "selectionPhone": "via Phone",
+    "remember": "Do you remember?",
+    "signIn": "Sign In",
+    "modalTitle": "Username Sent",
+    "loading": "Loading..."
+  },
+  "orderStates": {
+    "uncertain": "Operation Uncertain",
+    "delivered": "Order Delivered",
+    "waitingSellerDelivery": "Waiting for seller's delivery",
+    "waitingBuyerVerify": "Waiting for buyer's delivery confirmation",
+    "waitingSellerEvidence": "Waiting for seller proof of delivery",
+    "evaluatedSellerEvidence": "Seller's proof of delivery being evaluated",
+    "cancelByBuyer": "Order cancelled by buyer",
+    "cancelBySeller": "Order cancelled by seller",
+    "cancelBySystem": "Order cancelled by the system"
+  },
+  "buttonTexts": {
+    "show": "Show"
+  },
+  "userTypes": {
+    "shop": {
+      "title": "Store Member"
+    }
+  },
+  "base": {
+    "pages": {
+      "settings": "Settings",
+      "help": "Help",
+      "faq": "Faq",
+      "activity": "Activity",
+      "profile": "Profile"
+    },
+    "auth": {
+      "signOut": "Sign Out"
+    }
+  },
+  "notifications" : {
+    "notificationTypes": {
+      "allNotifications": "All Notifications",
+      "unRead": "Unread",
+      "requiringAction": "Requiring Action",
+      "system": "System"
+    }
+  },
+  "orders" : {
+    "filterTitles" : {
+      "filterOrder" : "Filter Order",
+      "filterOrders": "Filter Orders",
+      "state" : "State",
+      "purchaseId" : "Purchase Id",
+      "customerName" : "Customer Name",
+      "titleAdvert": "Advert Title",
+      "dateRange" : "Date Range",
+      "purchaseIdErrorText":"Order id must be more than 2 digits.",
+      "customerNameErrorText": "Customer name must be more than 2 digits.",
+      "titleAdvertErrorText": "Advert title must be more than 2 digits.",
+      "boughtPageTitle" : "Purchased",
+      "soldPageTitle" : "Sold"
+    },
+    "orderList": {
+      "noOrdersFound" : "No Orders Found",
+      "deliveredStock": "Delivered Stock",
+      "advertPrice": "Advert Price",
+      "clearOrderFilters" : "Clear Order Filters",
+      "page": "Page"
+
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "pages": {
+      "profileInfos": "Profile Information",
+      "changePassword": "Change Password",
+      "changeMail": "Change Mail",
+      "changePhone": "Change Phone",
+      "invoiceInfos": "Invoice Information",
+      "accountSecurity": "Account Security",
+      "bankAccounts": "Bank Accounts",
+      "loginLogs": "Access Logs",
+      "balanceMovements": "Balance Movements",
+      "linkedAccounts": "Linked Accounts",
+      "notificationSettings": "Notification Settings",
+      "applicationSettings": "Application Settings",
+      "chatSettings": "Chat Settings"
+    },
+    "cover": {
+      "changeCover": "Change Cover"
+    }
+  },
+  "supportSystem": {
+    "title": "Support System",
+    "banner": {
+      "title": "Need help?",
+      "description": "Our in-store support team will be happy to assist you.",
+      "action": "Create Support Request"
+    },
+    "footer": {
+      "badges": {
+        "sss": {
+          "title": "FAQ",
+          "description": "You can find the answer you need on the frequently asked questions page.",
+          "action": "review"
+        },
+        "questionAnswer": {
+          "title": "Question - Answer",
+          "description": "Answers to other stores' questions by our support team...",
+          "action": "review"
+        },
+        "documentation": {
+          "title": "Documentation",
+          "description": "Documentation to use your store panel more effectively",
+          "action": "Coming soon"
+        }
+      }
+    },
+    "header":{
+      "modalTitle": "Create Support Request",
+      "infoTitle":"Support System Information",
+      "infoContent": "Your support requests are responded to within 24-48 hours. Please contact live support before this time expires and my request was not answered etc. Do not make such statements. You can send an e-mail to destek@itemsatis.com.tr for different situations.",
+      "requestHeader":"Request Header",
+      "requestCategory":"Request Category",
+      "supportRequest":"Support Request Content",
+      "requestAdditionalImages":"Request Additional Images",
+      "dropzoneMessage":"Click or drag file to this area to upload",
+      "requestCategoryPlaceholder":"Select a category",
+      "requestHeaderPlaceholder":"Enter your request header",
+      "textAreaPlaceHolder":"Write your request here...",
+      "button": "Save Changes",
+      "createdSuccessfully": "Your request has been created successfully"
+    },
+    "detail":{
+      "title": "Support Request Detail",
+      "createdAt":"Created At",
+      "back":"Back",
+      "refresh":"Refresh",
+      "replyInfoheader":"Reply Information",
+      "replyInfoBody":"Your support requests are responded to within 24-48 hours. Please contact live support before this time expires and my request was not answered etc. Do not make statements. You can send an e-mail to support@itemsatis.com.tr for different situations.",
+      "replyTextAreaPlaceHolder":"Write your reply here...",
+      "replyButton":"Reply",
+      "noReplyInfoHeader":"Your Request Has Been Closed",
+      "noReplyInfoBody":"Since your request has been closed, you cannot reply to this request."
+    }
+  },
+  "chat": {
+    "title": "Chat",
+    "archive": "Archive",
+    "unarchive": "All Chats"
+  },
+  "words": {
+    "version": "version",
+    "beta": "beta"
+  },
+  "faq" : {
+    "faqList" : {
+      "security": "Security",
+      "postProgress": "Post Progress",
+      "corporate" : "Corporate",
+      "paymentAndBalance": "Payment And Balance",
+      "profileAndAccount": "Profile And Account ",
+      "faq": "FAQ"
+    }
+  },
+  "changesLog":{
+    "button":"Show more notification messages",
+    "title":"Changes Log"
+  }
+}

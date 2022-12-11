@@ -1,0 +1,402 @@
+{
+  "message": "merhaba i18n !!",
+  "turkish": "Türkçe",
+  "english": "İngilizce",
+  "mainMenu": "Ana Menü",
+  "menu": {
+    "mainMenu": {
+      "shop": "MAĞAZA PANELİ"
+    },
+    "accountAndOther": "HESAP VE DİĞER",
+    "accountSettings": "Hesap Ayarları",
+    "routes": {
+      "summary": "Özet Ekran",
+      "advertProcess": "İlan İşlemleri",
+      "myAdverts": "İlanlarım",
+      "notifications": "Bildirimler",
+      "allNotifications": "Tüm Bildirimler",
+      "unreadNotifications": "Okunmamış",
+      "requiringActionNotifications": "Eylem Gerektiren",
+      "systemNotifications": "Sistem",
+      "orders": "Siparişler",
+      "allOrders": "Tüm Siparişler",
+      "purchasedOrder": "Satın Aldıklarım",
+      "thoseOldOrder": "Sattıklarım",
+      "supportSystem": "Destek Sistemi",
+      "mySupports": "Destek Taleplerim",
+      "createSupport": "Talep Oluştur",
+      "changesLog":"Değişiklikler Günlüğü"
+    }
+  },
+  "currency": "₺",
+  "shop": {
+    "dashboard": {
+      "title": "Satış Raporu Özeti",
+      "dailyReport": {
+        "title": "Kısa Rapor",
+        "subtitle": "Son 48 saatlik verileri baz almaktadır*",
+        "totalPrice": "Sipariş Toplamı",
+        "orderCount": "Sipariş Sayısı",
+        "compYesterday": "Düne Oranla",
+        "pendingOrders": "Bekleyen Siparişler",
+        "deliveredOrders": "Teslim Edilen"
+      },
+      "last30DayChart": {
+        "title": "Sipariş Raporu (Bu ay)",
+        "purchaseWord": "Sipariş",
+        "earningWord": "Tutar",
+        "customerWord": "Müşteri",
+        "numberOfOrders": "Sipariş Sayısı",
+        "orderAmount": "Sipariş Tutarı",
+        "customerCount": "Müşteri Sayısı"
+      },
+      "lastOrders": {
+        "title": "Son Siparişler",
+        "showAllOrders": "Tüm Siparişler",
+        "columns": {
+          "customer": "Müşteri",
+          "price": "Ücret",
+          "state": "Durum",
+          "advert": "Satılan İlan"
+        }
+      },
+      "lastNotifications": {
+        "title": "Son Bildirimler",
+        "showAllNotifications": "Tüm Bildirimler",
+        "columns": {
+          "notification": "Bildirim",
+          "process": "İşlem"
+        }
+      }
+    },
+    "adverts":{
+      "title":"İlanlarım",
+      "subtitle":"Listelenen İlan Sayısı",
+      "createAdvert":"İlan Oluştur",
+      "searchPlaceholder":"İlan Ara",
+      "menuAllAdverts":"Tüm İlanlar",
+      "menuActiveAdverts":"Aktif İlanlar",
+      "menuInactiveAdverts":"Pasif İlanlar",
+      "sort":"Sırala",
+      "sortAI":"Akıllı Sıralama (Varsayılan)",
+      "sortDate":"İlan Sona Erme (Yakın -> Uzak)",
+      "sortCategory":"İlan Kategorisi (A->Z)",
+      "sortPrice":"İlan Ücreti (9->1)",
+      "sortCSV":"CSV",
+      "selectedAdvert":"İlan Seçildi",
+      "batchProcessRemove":"Yayından Kaldır",
+      "batchProcessMoveUp":"Yukarı Taşı",
+      "batchProcessDoping":"Doping",
+      "batchProcessApply":"Uygula",
+      "advertCard":{
+        "month":"Ay",
+        "day":"Gün",
+        "hour":"Saat",
+        "minute":"Dakika",
+        "price":"İlan Fiyatı",
+        "editAdvert":"İlanı Düzenle",
+        "showCaseAdvert":"Vitrin İlanı",
+        "remainingTime":"Kalan Süre",
+        "featuredAdvert":"Öne çıkan ilan",
+        "socialAdvert":"Sohbet & Bildirim Vitrini",
+        "marketAdvert":"İlan Pazarı Vitrini",
+        "movedUp":"İlan Yukarı Taşı",
+        "increaseAdvertTime":"Lütfen ilanın süresini ne kadar artıracağınızı seçiniz.",
+        "approve":"Onayla",
+        "chooseAdvert":"Seç",
+        "optionsAdvert":"İşlemler",
+        "optionsMenuEdit":"Düzenle",
+        "optionsMenuDoping":"Doping",
+        "optionsMenuStock":"Stokları Düzenle",
+        "optionsMenuGraph":"Grafik",
+        "optionsMenuOrders":"Siparişleri Listele",
+        "optionsMenuMoveUp":"Yukarı Taşı",
+        "optionsMenuRemove":"Yayından Kaldır",
+        "optionsMenuRePublish":"Yayına Al"
+      },
+      "dopingModal":{
+        "title":"İlan Doping",
+        "description":"Bu ilanınız için doping işlemi gerçekleştiriyorsunuz.",
+        "price":"İlan Fiyatı",
+        "chooseTime":"Süre Seçimi",
+        "noChoose":"Seçim Yapılmadı",
+        "month":"Ay",
+        "day":"Gün",
+        "hour":"Saat",
+        "minute":"Dakika",
+        "endshowcase":"Vitrinin Sona Ereceği Tarih",
+        "showCasePrice":"Ödenecek Tutar",
+        "saveChanges":"Değişikleri Kaydet",
+        "boost":{
+          "title":"Anasayfa Vitrini",
+          "description":"Vitrin İlanlar Ana Sayfa ve İlan Kategorisinde en üstte sabitlenmiş olarak görünmektedir."
+        },
+        "social":{
+          "title":"Sohbet & Bildirim Vitrin İlanı",
+          "description":"İtemSatış’ın ana sayfasından sonra en aktif sayfalarının mesajlar ve bildirimler sayfası olduğunu biliyor muydunuz?Sohbet & Bildirim vitrini sayesinde ilanınız mesajlarım ve bildirimlerim sayfasının altında listelenecek ve %75’e yakın oranda daha fazla görüntülenme alacaktır. Bu sayede satış sayınız artabilir."
+        },
+        "pinned":{
+          "title":"Pazar Vitrini",
+          "description":"Bu dopingi satın alarak ilanınızı İlan Pazarı sayfasında en üstte sergileyebilirsiniz. Pazar vitrini sayesinde ilanınız, normal ilanlara göre %70 daha fazla görüntülenme alacaktır. Bu sayede de satış hızınız ve sayınız artacak"
+        },
+        "featured":{
+          "title":"İlanını öne çıkar",
+          "description":"Öne çıkarılan ilanlar diğer ilanlardan daha fazla ilgi çekmektedir ve %80 oranında diğer ilanlardan daha hızlı satılmaktadır. İlanınızı öne çıkarttığınızda ilan listeleme sayfalarında organik sıralarınızda bulunacaksınız fakat diğer ilanlardan daha belirgin olmanız için başlık kalınlığı arkaplan rengi vs. gibi bazı özel stiller uygulanacaktır bu sebeple diğer ilanlardan daha belirgin olacaktır."
+        }
+      },
+      "stockModal":{
+        "title":"İlan Stokları Düzenle",
+        "searchPlaceholder":"İlan Ara",
+        "description":"Bu ilanınıza ait stoklarda düzenleme işlemi yapıyorsunuz.",
+        "price":"İlan Fiyatı",
+        "contentOfStock":"Stok İçeriği",
+        "operation":"İşlem"
+      },
+      "ordersModal":{
+        "title":"İlana Ait Siparişler",
+        "description":"Bu ilanınıza ait siparişleri listeliyorsunuz.",
+        "price":"İlan Fiyatı",
+        "priceOfAdvert":"İlan Fiyatı",
+        "contentOfStock":"Stok İçeriği",
+        "operation":"İşlem"
+      }
+      
+    }
+  },
+  "signIn": {
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "signIn": "Giriş Yap",
+    "forgotPassword": "Şifremi Unuttum",
+    "forgotUsername": "Kullanıcı adımı unuttum",
+    "noAccount": "Hesabınız yok mu?",
+    "signUp": "Kayıt Ol.",
+    "loading": "Yükleniyor...",
+    "or": "Ya da",
+    "rememberMe": "Beni Hatırla",
+    "signInWithGoogle": "Google ile Giriş Yap",
+    "usernamePlaceholder": "Kullanıcı Adınızı ya da Email Adresinizi giriniz..",
+    "passwordPlaceholder": "Şifrenizi giriniz..",
+    "createAccoutNow": "Hemen yeni bir hesap oluştur!"
+  },
+  "signUp": {
+    "haveAccount": "Zaten bir hesabın var mı?",
+    "signIn": "Giriş Yap",
+    "signUp": "Kayıt Ol",
+    "username": "Kullanıcı Adı",
+    "fullname": "Ad Soyad",
+    "phoneNumber": "Telefon Numaranız",
+    "password": "Şifreniz",
+    "birthday": "Doğum Tarihiniz",
+    "passwordAgain": "Tekrar Şifreniz",
+    "emailAddress": "E-mail Adresiniz",
+    "emailAddressAgain": "Tekrar E-Mail Adresiniz",
+    "usernamePlaceholder": "Kullanıcı adınızı belirleyin..",
+    "fullnamePlaceholder": "Adınızı ve Soyadınızı giriniz..",
+    "phoneNumberPlaceholder": "Telefon numaranızı giriniz..",
+    "passwordPlaceholder": "Güçlü bir şifre belirleyin..",
+    "birthdayPlaceholder": "GG/AA/YYYY",
+    "birthdayError": "Doğum tarihi geçersiz",
+    "passwordAgainPlaceholder": "Şifrenizi tekrar giriniz..",
+    "emailAddressPlaceholder": "E-mail adresinizi giriniz..",
+    "emailAddressAgainPlaceholder": "E-mail adresinizi tekrar giriniz..",
+    "aggrement": "Üyelik Sözleşmesi'ni okudum, kabul ediyorum.",
+    "or": "Ya da",
+    "createAccount": "Hesap Oluştur!",
+    "signInWithGoogle": "Google ile Giriş Yap",
+    "loading": "Yükleniyor..."
+  },
+  "forgotPassword": {
+    "forgotPassword": "Şifremi Unuttum",
+    "forgotInfoTitle": "Bilgilendirme",
+    "forgotInfoText": "Şifre sıfırlama işlemini Kullanıcı adı / Email veya sistemde kayıtlı telefon numaranız ile yapabilirsiniz. Şifre sıfırla butonuna tıkladığınızda Mail adresinize veya telefon numaranıza şifre sıfırlamanızı sağlayacak bir otomatik url gönderilecektir.",
+    "emailAddress": "E-mail Adresiniz",
+    "phoneNumber": "Telefon Numaranız",
+    "emailAddressPlaceholder": "E-mail adresinizi giriniz..",
+    "phoneNumberPlaceholder": "Telefon numaranızı giriniz..",
+    "verificationCodePlaceholder": "6 haneli güvenlilk kodunu giriniz.",
+    "resetPassword": "Şifremi Sıfırla",
+    "selectionEmail": "E-mail ile",
+    "selectionPhone": "Telefon ile",
+    "remember": "Hatırlıyor musunuz?",
+    "signIn": "Giriş Yap",
+    "modalTitle": "Şifre Sıfırlama",
+    "loading": "Yükleniyor..."
+  },
+  "forgotUsername": {
+    "forgotUsername": "Kullanıcı Adımı Unuttum",
+    "forgotInfoTitle": "Bilgilendirme",
+    "forgotInfoText": "Kullanıcı adı bilginizin gönderileceği email veya telefon bilginizi aşağıdan girebilirsiniz. İşlem sonucunda kullanıcı adınız tarafınıza iletilecektir.",
+    "emailAddress": "E-mail Adresiniz",
+    "phoneNumber": "Telefon Numaranız",
+    "emailAddressPlaceholder": "E-mail adresinizi giriniz..",
+    "phoneNumberPlaceholder": "Telefon numaranızı giriniz..",
+    "sendUsername": "Kullanıcı Adımı Gönder",
+    "selectionEmail": "E-mail ile",
+    "selectionPhone": "Telefon ile",
+    "remember": "Hatırlıyor musunuz?",
+    "signIn": "Giriş Yap",
+    "modalTitle": "Kullanıcı Adı Gönderildi",
+    "loading": "Yükleniyor..."
+  },
+  "orderStates": {
+    "uncertain": "İşlem Belirsiz",
+    "delivered": "Sipariş Teslim Edildi",
+    "waitingSellerDelivery": "Satıcının teslimatı bekleniyor",
+    "waitingBuyerVerify": "Alıcının teslimat onayı bekleniyor",
+    "waitingSellerEvidence": "Satıcının teslimat kanıtı bekleniyor",
+    "evaluatedSellerEvidence": "Satıcının teslimat kanıtı değerlendiriliyor",
+    "cancelByBuyer": "Sipariş alıcı tarafından iptal edildi",
+    "cancelBySeller": "Sipariş satıcı tarafından iptal edildi",
+    "cancelBySystem": "Sipariş sistem tarafından iptal edildi"
+  },
+  "buttonTexts": {
+    "show": "Göster"
+  },
+  "userTypes": {
+    "shop": {
+      "title": "Mağaza Üye"
+    }
+  },
+  "base": {
+    "pages": {
+      "settings": "Ayarlar",
+      "help": "Yardım",
+      "faq": "SSS",
+      "activity": "Etkinlik",
+      "profile": "Profil"
+    },
+    "auth": {
+      "signOut": "Çıkış Yap"
+    }
+  }, "notifications" : {
+  "notificationTypes": {
+    "allNotifications": "Tüm Bildirimler",
+    "unRead": "Okunmamış",
+    "requiringAction": "Eylem Bekleyen",
+    "system": "Sistem"
+  }
+},
+  "orders" : {
+    "filterTitles" : {
+      "filterOrder" : "Sipariş Filtrele",
+      "filterOrders": "Siparişleri Filtrele",
+      "state" : "Durum",
+      "purchaseId" : "Sipariş Id",
+      "customerName" : "Müşteri Adı",
+      "titleAdvert": "İlan Başlığı",
+      "dateRange" : "Tarih Aralığı",
+      "purchaseIdErrorText":"Sipariş id 2 haneden fazla olmalıdır.",
+      "customerNameErrorText": "Müşteri adı 2 haneden fazla olmalıdır..",
+      "titleAdvertErrorText": "İlan başlığı 2 haneden fazla olmalıdır.",
+      "boughtPageTitle" : "Satın Alınanlar",
+      "soldPageTitle" : "Sattıklarım"
+    },
+    "orderList": {
+      "noOrdersFound" : "Hiç sipariş bulunamadı",
+      "deliveredStock": "Teslim edilen stok",
+      "advertPrice": "İlan Ücreti",
+      "clearOrderFilters" : "Tüm Filtreleri Temizle",
+      "page": "Sayfa"
+
+    }
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "pages": {
+      "profileInfos": "Profil Bilgileri",
+      "changePassword": "Şifre Değiştir",
+      "changeMail": "Mail Değiştir",
+      "changePhone": "Telefon Değiştir",
+      "invoiceInfos": "Fatura Bilgileri",
+      "accountSecurity": "Hesap Güvenliği",
+      "bankAccounts": "Banka Hesapları",
+      "loginLogs": "Erişim Kayıtları",
+      "balanceMovements": "Bakiye Hareketleri",
+      "linkedAccounts": "Bağlantılı Hesaplar",
+      "notificationSettings": "Bildirim Ayarları",
+      "applicationSettings": "Uygulama Ayarları",
+      "chatSettings": "Sohbet Ayarları"
+    },
+    "cover": {
+      "changeCover": "Kapak Fotoğrafını Değiştir"
+    }
+  },
+  "supportSystem": {
+    "title": "Destek Sistemi",
+    "banner": {
+      "title": "Yardıma mı ihtiyacınız var?",
+      "description": "Mağazalara özel destek ekibimiz size yardımcı olmaktan mutluluk duyacaktır.",
+      "action": "Destek Talebi Oluştur"
+    },
+    "footer": {
+      "badges": {
+        "sss": {
+          "title": "S.S.S",
+          "description": "Sıkça sorulan sorular sayfasında ihtiyacınız olan cevabı bulabilirsiniz.",
+          "action": "incele"
+        },
+        "questionAnswer": {
+          "title": "Soru - Cevap",
+          "description": "Diğer mağazaların sorularına destek ekibimiz tarafından verilen yanıtlar...",
+          "action": "incele"
+        },
+        "documentation": {
+          "title": "Dokümantasyon",
+          "description": "Mağaza panelinizi daha etkin kullanabilmeniz için dokümantasyon",
+          "action": "Çok Yakında"
+        }
+      }
+    },
+    "header":{
+      "modalTitle": "Destek Talebi Oluştur",
+      "infoTitle":"Destek Sistemi Bilgilendirmesi",
+      "infoContent": "Destek taleplerinize 24-48 saat içerisinde yanıt verilmektedir. Lütfen bu süre dolmadan önce canlı desteğe bağlanarak talebim cevaplanmadı v.b. gibi söylemlerde bulunmayınız. Farklı durumlar için destek@itemsatis.com.tr adresine mail gönderebilirsiniz.",
+      "requestHeader":"Talep Başlığı",
+      "requestCategory":"Talep Kategorisi",
+      "supportRequest":"Destek Talebi İçeriği",
+      "requestAdditionalImages":"Talep Ek Görselleri",
+      "dropzoneMessage":"Dosya yüklemek için sürükleyin veya tıklayın",
+      "requestCategoryPlaceholder":"Kategori seçiniz",
+      "requestHeaderPlaceholder":"Talep başlığını giriniz",
+      "textAreaPlaceHolder":"Talebinizi buraya yazınız...",
+      "button": "Değişiklikleri Kaydet",
+      "createdSuccessfully": "Talep başarıyla oluşturuldu"
+    },
+    "detail":{
+      "title":"Destek Talebi Detayı",
+      "createdAt":"Oluşturulma Tarihi",
+      "back":"Geri",
+      "refresh":"Yenile",
+      "replyInfoheader":"Destek Sistemi Bilgilendirmesi",
+      "replyInfoBody":"Destek taleplerinize 24-48 saat içerisinde yanıtverilmektedir. Lütfen bu süre dolmadan önce canlı desteğe bağlanarak talebim cevaplanmadı v.b. söylemlerde bulunmayınız. Farklı durumlar için destek@itemsatis.com.tr adresine mail gönderebilirsiniz.",
+      "replyTextAreaPlaceHolder":"Talebinizi buraya yazınız...",
+      "replyButton":"Cevap Gönder",
+      "noReplyInfoHeader":"Talebiniz kapatıldı",
+      "noReplyInfoBody":"Talebiniz kapatıldığı için, bu talebe cevap yazamazsınız."
+    }
+  },
+  "chat": {
+    "title": "Sohbet",
+    "archive": "Arşivlenmiş",
+    "unarchive": "Tüm Sohbetler"
+  },
+  "words": {
+    "version": "versiyon",
+    "beta": "beta"
+  },
+  "faq" : {
+    "faqList" : {
+      "security": "Güvenlik",
+      "postProgress": "İlan İşlemleri",
+      "corporate" : "Kurumsal",
+      "paymentAndBalance": "Ödeme Ve Bakiye",
+      "profileAndAccount": "Hesap Ayarları",
+      "faq": "Sık Sorulan Sorular"
+    }
+  },
+  "changesLog":{
+    "button":"Daha fazla bilgilendirme mesajı göster",
+    "title": "Değişiklikler Günlüğü"
+  }
+}
